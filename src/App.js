@@ -6,6 +6,7 @@ import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
 import {Button} from 'reactstrap';
 import Trial from './Trial.js';
+import Navbar from './Navbar.js';
 
 function App() {
   const navigate = useNavigate()
@@ -42,18 +43,19 @@ function App() {
     navigate('/trial')
   }
   return (
-    <div className="App">
-      {
-        products.map(index=>{
-          return(
-            <>
-            <h1>{index.productName}</h1>
-            <Button onClick = {handleClick}>Click Me</Button>
-            </>
-          )
-        })
-      }
-    </div>
+    // <div className="App">
+    //   {
+    //     products.map(index=>{
+    //       return(
+    //         <>
+    //         <h1>{index.productName}</h1>
+    //         <Button onClick = {handleClick}>Click Me</Button>
+    //         </>
+    //       )
+    //     })
+    //   }
+    // </div>
+    <Navbar/>
   );
 }
 
