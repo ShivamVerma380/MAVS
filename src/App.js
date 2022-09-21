@@ -6,8 +6,8 @@ import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
 import {Button} from 'reactstrap';
 import Trial from './Trial.js';
-import Navbar from './Navbar.js';
-
+import Navbar from './components/Navbar.js';
+import Home from './components/Home';
 function App() {
   const navigate = useNavigate()
   const[products, setProducts] = useState([])
@@ -55,7 +55,7 @@ function App() {
     //     })
     //   }
     // </div>
-    <Navbar/>
+    <Home/>
   );
 }
 
