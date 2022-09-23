@@ -1,6 +1,6 @@
 .navbar {
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: 80px;
+    height: 63px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,13 +42,23 @@
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 16px;
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+  }
+  .mavs-logo{
+    margin-top: 10px;
+    width: 237px;
+    left: 30px;
+    
   }
   
-  .nav-links:hover {
+  /* .nav-links:hover {
     background-color: #1888ff;
     border-radius: 4px;
     transition: all 0.2s ease-out;
-  }
+  } */
   
   .fa-bars {
     color: #fff;
@@ -73,10 +83,11 @@
       width: 100%;
       height: 90vh;
       position: absolute;
-      top: 80px;
+      top: 63px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
+      justify-content: start;
     }
   
     .nav-menu.active {
@@ -125,7 +136,7 @@
       display: block;
       text-align: center;
       padding: 1.5rem;
-      margin: 2rem auto;
+      margin: 1rem auto;
       border-radius: 4px;
       width: 80%;
       background: #1888ff;
