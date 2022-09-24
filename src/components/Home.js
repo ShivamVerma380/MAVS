@@ -1,6 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar.js'
-import logo from './MAVS LOGO-1-02.png'
+import Navbar from '../Navbar/Navbar'
 function Home() {
     return(
         <>

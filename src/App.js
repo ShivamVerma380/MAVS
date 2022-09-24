@@ -6,7 +6,6 @@ import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
 import {Button} from 'reactstrap';
 import Trial from './Trial.js';
-import Navbar from './components/Navbar.js';
 import Home from './components/Home';
 import Example from './Example';
 
@@ -57,15 +56,6 @@ function App() {
     //     })
     //   }
     // </div>
-    // <Router>
-    //     <Routes>
-    //         <Route path="/" element={<Home/>}/>
-    //         <Route path="/products" element= {<Products/>}/>
-    //         <Route path="/solutions" element= {<Solutions/>}/>
-    //         <Route path="/about" element= {<About/>}/>
-    //         <Route path="/contact" element= {<Contact/>}/>
-    //     </Routes>
-    // </Router>
     <Home/>
   );
 }
