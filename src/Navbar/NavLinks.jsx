@@ -46,7 +46,7 @@ const NavLinks = () => {
                 </div>}
             </div>
             {/* Mobile view */}
-            <div>
+            <div className="ulsticky bg-black">
                 {link.submenu && <div> 
                     <div className={`
                         ${heading === link.name ? 'md:hidden' : 'hidden'}

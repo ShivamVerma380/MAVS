@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 import logo from './MAVS LOGO-1-02.png';
 import './Navbar.css'
 import NavLinks from './NavLinks';
 const Navbar = () => {
   const [open,setOpen] = useState(false);
+  const [sticky,setSticky] = useState(false);
+  useEffect(()=>{
+    const handleScroll = () =>{
+      setSticky(window.scrollY);
+    };
+    window.addEventListener("scroll",handleScroll);
+    return()=>window.removeEventListener("scroll",handleScroll);
+
+  });
   return (
-    <nav className="bg-black">
+    <nav className={`${sticky ? "sticky" :""}`}>
         <div className="flex items-center font-medium justify-around height-63 navbar">
             <div className="z-50 p-5 md:w-auto w-full flex justify-between ">
               <img src={logo} alt="logo" className='logo-img md:cursor-pointer'/>
@@ -27,7 +37,7 @@ const Navbar = () => {
           {/* Mobile Nav */}
           <ul className={`
           md:hidden bg-black absolute w-full h-full bottom-0 py-24 pl-4
-          duration-500 ${open ? "left-0" : "left-[-100%]"}
+          duration-500 ulsticky ${open ? "left-0" : "left-[-100%]"} 
           `}>
           <li className='py-7 px-3 inline-block text-white'>
                 Home
