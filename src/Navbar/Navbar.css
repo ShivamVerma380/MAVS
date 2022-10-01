@@ -24,3 +24,6 @@ nav.sticky{
 .ulsticky{
     position: fixed;
 }
+.dropmenu{
+    z-index: 9999;
+}

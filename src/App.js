@@ -8,6 +8,7 @@ import {Button} from 'reactstrap';
 import Trial from './Trial.js';
 import Home from './components/Home';
 import Example from './Example';
+import ProductMain from './ProductsPage/ProductMain';
 
 function App() {
   const navigate = useNavigate()
@@ -56,7 +57,11 @@ function App() {
     //     })
     //   }
     // </div>
+    <>
     <Home/>
+    <ProductMain/>
+    </>
+    
   );
 }
 
