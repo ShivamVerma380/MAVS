@@ -46,6 +46,15 @@
     margin: 15px 0;
     font-weight: 400;
     font-size: 16px;
+    
+}
+.paradesc{
+    max-width: 1000px;
+    min-width: 290px;
+    line-height: 1.5px;
+    margin: 15px 0;
+    font-weight: 400;
+    font-size: 16px;
 }
 .thumb{
     width: 100%;
@@ -62,7 +71,7 @@
     object-fit: cover;
     border: 1px solid #ddd;
     margin-right: 30px;
-    opacity: 0.7;
+    opacity: 1;
     border-radius: 5px;
     transition: 0.5s linear;
 }

@@ -13,7 +13,7 @@ class ProductMain extends React.Component{
                 "title": "Poly Product 1",
                 "src": [
                     img1,
-                    img2,
+                    img3,
                     img3,
                     img4
                 ],
@@ -58,6 +58,8 @@ class ProductMain extends React.Component{
                                     <h1>{item.title}</h1>
                                 </div>
                                 <p>
+                                    {item.description}
+                                    {item.description}
                                     {item.description}
                                 </p>
                             </div>

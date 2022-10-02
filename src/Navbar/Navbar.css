@@ -10,6 +10,7 @@
 .navbar{
     height: 63px;
     background: black;
+    z-index: 100;
 }
 .icon1{
     color: #fff;
