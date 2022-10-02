@@ -9,6 +9,9 @@ import Trial from './Trial.js';
 import Home from './components/Home';
 import Example from './Example';
 import ProductMain from './ProductsPage/ProductMain';
+import Solution from './Solution/Solution'
+
+
 
 function App() {
   const navigate = useNavigate()
@@ -58,8 +61,11 @@ function App() {
     //   }
     // </div>
     <>
+    
     <Home/>
-    <ProductMain/>
+
+    {/* <ProductMain/> */}
+   
     </>
     
   );
