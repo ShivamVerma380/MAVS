@@ -23,7 +23,7 @@ const Navbar = () => {
                 </div>
             </div>
             <ul className='md:flex hidden uppercase items-center gap-8 font-[Poppins]'>
-              <li className='py-7 px-2 inline-block navbar-links'>
+              <li className='py-7 px-2 inline-block md:cursor-pointer navbar-links'>
                 Home
               </li>
               {/* <li>
