@@ -9,18 +9,10 @@ function Solution() {
     return(
        
        <>
-    <div>
-      <Slider />
-    </div>
-      
-
-       
+         <div>
+            <Slider />
+         </div>
        </>
-       
-
-
-
-
     )
 }
 
