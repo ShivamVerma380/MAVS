@@ -1,10 +1,10 @@
-.article {
+.article_abt_us {
     height: 650px;
     position: relative;
     overflow: visible;
 }
 @media screen and(width<860){
-    .article{
+    .article_abt_us {
         height: 400px !important;
         position: relative;
         overflow: visible;

@@ -1,6 +1,6 @@
 .slider {
     width: 100%;
-    height: 90vh;
+    height: 680px;
     position: relative;
     overflow: hidden;
   }
@@ -25,15 +25,19 @@
   }
   
   .slide img {
-    // width: 100%;
-    height: 100%;
+   width: 100%!important;
+    height: 682px!important ;
+    position: relative;
   }
   
   .current {
     opacity: 1;
     transform: translateX(0);
   }
-  
+  h2{
+      font-size:x-large;
+
+  }
   .content {
     position: absolute;
     top: 23rem;

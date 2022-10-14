@@ -3,7 +3,7 @@ import background from "./table.jpg";
 
 const Picture = () => {
     return (
-      <article className={styles.article}>
+      <article className={styles.article_abt_us}>
         <picture className={styles.picture}>
           <img src={background} alt="background" class="img-fluid" width={'100%'}/>
         </picture>

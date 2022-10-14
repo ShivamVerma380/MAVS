@@ -2,12 +2,13 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import ProductMain from '../ProductsPage/ProductMain';
 import Solution from '../Solution/Solution'
-import Aboutus from '../aboutus/aboutus/Aboutus';
+import Aboutus from '../aboutus/Aboutus';
 function Home() {
     return(
         <>
         <Navbar/>
-        <Aboutus/>
+        {/* <Aboutus/> */}
+        <Solution/>
         {/* <ProductMain/> */}
         {/* <section>
             <p>

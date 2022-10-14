@@ -1,6 +1,7 @@
 import React ,{ useState }from 'react';
 import './Aboutus.css';
-import Picture from './Picture.js';
+import Picture from './Picture.js'
+import Navbar from '../Navbar/Navbar.jsx'
 import Experience from './Experience';
 import Partners from './Partners';
 
@@ -8,7 +9,7 @@ function Aboutus(){
     
     return(
     <>
-        
+        {/* <Navbar/> */}
         <div class="backgr-abt-us">
             <Picture/>
         </div>

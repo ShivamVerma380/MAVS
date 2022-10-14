@@ -1,0 +1,72 @@
+
+.card{
+    background:  #f5f5f5;
+    width: 275px;
+    height: 470px;
+    margin: 50px;
+    border-radius: 15px;
+
+}
+
+.card-image{
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpruhg7D8v04o_YXJMys52p1DgodUH_U-9U27Yfdd7zsQKs2yCsOpg_VrMsGtSoSLpLN8&usqp=CAU');
+   
+}
+
+.car-2{
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpruhg7D8v04o_YXJMys52p1DgodUH_U-9U27Yfdd7zsQKs2yCsOpg_VrMsGtSoSLpLN8&usqp=CAU');
+
+
+}
+
+
+.car-3{
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpruhg7D8v04o_YXJMys52p1DgodUH_U-9U27Yfdd7zsQKs2yCsOpg_VrMsGtSoSLpLN8&usqp=CAU');
+
+
+}
+
+.car-4{
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpruhg7D8v04o_YXJMys52p1DgodUH_U-9U27Yfdd7zsQKs2yCsOpg_VrMsGtSoSLpLN8&usqp=CAU');
+
+
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+    height: 130px;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}

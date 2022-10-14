@@ -1,4 +1,4 @@
-.slider{
+.slider-partners-abt-us{
     height:250px;
     margin: auto;
     position: relative;
@@ -7,22 +7,22 @@
     place-items: center;
     overflow: hidden;
 }
-.slide-track{
+.slide-partners-abt-us-track{
     display: flex;
     width: calc(250px*35);
     animation: scroll 50s linear infinite;
 }
 @media screen and (width<750px) {
-    .slider{
+    .slider-partners-abt-us{
         height: 150px;
     }
-    .slide-track{
+    .slide-partners-abt-us-track{
         width: calc(150px*35);  
         animation: scroll 30s linear infinite;
     }
     
 }
-.slide-track:hover{
+.slide-partners-abt-us-track:hover{
     animation-play-state: running;
 }
 @keyframes scroll {
@@ -33,7 +33,7 @@
         transform: translateX(calc((-249px*30)));
     }
 }
-.slide{
+.slide-partners-abt-us{
     height: 200px;
     width: 250px;
     display: flex;
@@ -47,7 +47,7 @@ img{
 img:hover{
     transform: translateZ(20px);
 }
-.slider::before,slider::after{
+.slider-partners-abt-us::before,slider-partners-abt-us::after{
     background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
     content: '';
     height: 100%;
@@ -55,11 +55,11 @@ img:hover{
     width: 15%;
     z-index: 2;
 }
-.slider::before{
+.slider-partners-abt-us::before{
     left: 0;
     top: 0;
 }
-.slider::after{
+.slider-partners-abt-us::after{
     right: 0;
     top:0;
     transform: rotateZ(180deg);

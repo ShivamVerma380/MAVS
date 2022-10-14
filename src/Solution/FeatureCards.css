@@ -1,0 +1,24 @@
+ 
+ 
+ @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,800');
+ 
+ 
+
+ *{
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-family : "Poppins", sans-serif;
+    }
+
+    .bbody {
+        display : flex;
+        padding: 60px ;
+        margin-left: px;
+        padding-top: 20px;
+        min-height : 400px;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+      }
+
